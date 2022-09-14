@@ -1,0 +1,54 @@
+.bebidas-lista{
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.bebidas-lista h2{
+  padding-bottom: 40px;
+}
+.bebidas-lista ul{
+  display: flex;
+  gap: 20px;
+  padding: 0 20px 20px 20px;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow-x: auto;
+}
+.bebidas-lista li{
+  flex: 1;
+  min-width: 300px;
+}
+.bebidas-lista a{
+  display: block;
+}
+.bebidas-lista img{
+  margin-bottom: 16px;
+}
+.bebidas-lista h3{
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+.bebidas-lista h3::before{
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: var(--cor-p1);
+  transition: width .30s
+}
+.bebidas-lista a:hover h3::before{
+  width: 24px;
+}
+.bebidas-lista li span{
+  padding-left: 20px;
+}
+@media(max-width: 800px){
+  .bebidas-lista{
+    padding-bottom: 60px;
+  }
+  .bebidas-lista ul{
+    gap: 20px;
+  }
+}

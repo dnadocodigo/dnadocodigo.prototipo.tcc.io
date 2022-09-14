@@ -1,0 +1,31 @@
+/* Configurações globais  */
+@import "./global/global.css";
+@import "./global/header.css";
+@import './global/footer.css';
+
+
+/* Utilidades  */
+@import "./utilidade/tipografias.css";
+@import "./utilidade/cores.css";
+@import "./utilidade/componentes.css";
+
+/* Home */
+@import "./home/introducao.css";
+@import "./home/bebidas_vantagens.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+
+/* Combo */
+@import "./combo/combo.css";
+
+/* contato */
+@import "./contatos/contato.css";
+@import "./contatos/formulario.css";
+@import "./contatos/lojas.css";
+
+/* bebidas */
+@import "./bebidas/bebidas-lista.css";
+@import "./bebidas/bebida.css";
+
+/* bebida */
+@import "./bebida/bebidas.css";
